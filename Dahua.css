@@ -1,0 +1,74 @@
+/*
+	Global classes
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	background-color: #FFF3E0;
+}
+
+.head-bar {
+	height: 45px;
+	width: 300px;
+	background-color: #A9A9A9;
+	font-family: 'Avenir', sans-serif;
+	color: white;
+	text-shadow: 1px 1px #000000;
+	text-align: center;
+}
+.head-bar h1{
+	padding-top: 2.75px;
+}
+
+.back-button {
+	border: 1px solid white;
+	width: 50px;
+	height: 25px;
+	background-color: lightgray;
+	float: left;
+	margin-top: 9px;
+	margin-left: 7px;
+}
+
+/*
+	Logging in
+			*/
+
+
+.i_am {
+				float: left;
+				padding-top: 85px;
+				padding-left: 23px;
+				font-family: 'Avenir', sans-serif;
+				font-size: 18px;
+				font-weight: bold;
+				color: #795548;
+}
+.arrangebox::after {
+	content: "";
+}
+
+.options {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: #FFF3E0;
+	text-align: center;
+	padding-top: 90px;
+	margin-left: 23px;
+}
+
+.options p {
+	padding-top: 50px;
+	width: 250px;
+	height: 80px;
+	background-color: #E65100;
+	box-shadow: 1px 3px 5px #4E342E;
+}
